@@ -1,3 +1,16 @@
 * {
     box-sizing: border-box;
+    display: inline;
+  }
+
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+
+  header {
+    padding: 60px;
+    text-align: right;
+    background: #98a8b8;
+    color: #fff;
   }
