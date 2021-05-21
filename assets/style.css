@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    display: inline;
+    margin: 0;
+    padding: 0;
   }
 
   body {
@@ -9,8 +10,61 @@
   }
 
   header {
-    padding: 60px;
-    text-align: right;
-    background: #98a8b8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: auto;
+    padding: 2%;
+    background-color: #13395c;
     color: #fff;
   }
+  header h1{
+      flex-wrap: wrap;
+      justify-content: space-between;
+    background-color: rgb(48, 147, 187);
+  }
+  nav ul a{
+      display:  2%;
+      color: rgb(16, 134, 180);
+  }
+  .hero { 
+    height: 300px;
+    background-image: url("../assets/images/Seattle.jpeg");
+    border-bottom-left-radius: 30px 30px; 
+    border-bottom-right-radius: 30px 30px;
+    background-size: cover; 
+    background-position:  100% 13%; 
+    background-attachment: fixed; 
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    align-items: flex-end;
+  }
+  
+  .hero-message {
+      font-size: 40px;
+      background-color: rgb(42, 157, 165);
+      color: rgb(0, 255, 213); 
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  aside {
+    flex: 1;
+    background-color: #fbfff8;
+    padding: 80px;
+    text-align: left;
+  }
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: auto;
+    padding: 3%;
+    background-color: #13395c;
+    color: #fff;
+}
