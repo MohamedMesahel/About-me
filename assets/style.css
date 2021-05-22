@@ -56,7 +56,6 @@ padding-right: 15px;
 main{
 display: flex;
 flex: 1 1 0;
-max-width: 1200px;
 margin: 2% auto;
 }
 
@@ -121,7 +120,11 @@ color: #b9C6ae;
 font-weight: bold;
 text-decoration: none;
 }
-/* @media screen and (max-width: 768px) {
-  header{
+@media screen and (max-width: 768px) {
+  body, header, main {
     flex-direction: column;
-  } */
+  }
+  section {
+    padding-right: 0;
+  }
+}
