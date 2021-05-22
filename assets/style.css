@@ -65,8 +65,8 @@ margin: 2% auto;
   padding-right: 5%;
 }
 
-.info{
-  border-right: 1px solid black;
+.title{
+  border-bottom: 1px solid black;
 }
 
 .column p{
@@ -79,12 +79,10 @@ h2 {
   margin: 2% 0;
   font-size: 250%;
 }
-.Projects{
-border-width: 1px;
-border-radius: 50px;
-padding: 10px;
-flex: 0 0 300px;
-margin: 20px;
+.work{
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 5% 50px auto;
 }
 
 .project-title h3{
