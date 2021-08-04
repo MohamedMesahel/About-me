@@ -1,126 +1,147 @@
   /* Body style */
-body {
-display: flex;
-flex-direction: column;
-line-height: 1.3;
-}
-    /* Header style */
 
-header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 1%;
-background-color: #13293d;
-color: #fff;
-}
-
-header h1{
-background-color: rgb(48, 147, 187);
-font-size: 200%;
-}  
-  /* Nav style */
-nav ul {
-display: flex;
-justify-content: space-between;
-min-width: 300px;
-}
-  
-nav a {
-color: #b9C6ae;
-font-weight: bold;
-text-decoration: none;
-}
- /*Hero and Background image style*/
-.hero { 
-height: 300px;
-background-image: url("../assets/images/Seattle.jpeg");
-border-bottom-left-radius: 30px 30px; 
-border-bottom-right-radius: 30px 30px;
-background-size: cover; 
-background-position:  100% 13%; 
-background-attachment: fixed; 
-display: flex;
-justify-content: flex-end;
-flex-wrap: wrap;
-flex-direction: row; 
-align-items: flex-end;
-}
-/* Hero and Background Message style */
-.hero-message {
-font-size: 40px;
-background-color: rgb(42, 157, 165);
-color: rgb(0, 255, 213); 
-padding-bottom: 15px;
-padding-right: 15px;
-}
- /* Main body style includes titles and contents */
-main{
-display: flex;
-flex: 1 1 0;
-margin: 2% auto;
-}
-
-.column{
-  flex: 1 1 0;
-  padding-right: 5%;
-}
-
-.title{
-  border-bottom: 1px solid black;
-}
-
-.column p{
-  margin: 2% 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 100%;
-}
-
-h2 {
-  margin: 2% 0;
-  font-size: 250%;
-}
-.work{
-  display: flex;
-  justify-content: flex-end;
-  margin: 20px 5% 50px auto;
-}
-
-.project-title h3{
-  border-radius: 50px 50px 0px 0px;
-  padding: 20px;
-  text-align: left;
-}
-.images {
-  width: 30%;
-}
- /* Footer style */
-
-.footer{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: auto;
-padding: 3%;
-background-color: #13395c;
-color: #fff;
-}
-.footer ul{
-display: flex;
-justify-content: space-between;
-min-width: 300px;
-}
-.footer a{
-color: #b9C6ae;
-font-weight: bold;
-text-decoration: none;
-}
-/* Interactive Features */
-@media screen and (max-width: 768px) {
-  body, header, main {
+  body {
+    display: flex;
     flex-direction: column;
+    line-height: 1.3;
   }
-  section {
-    padding-right: 0;
+
+  /* Header style */
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: #434d56;
+    color: rgb(226, 106, 106);
   }
-}
+
+  header h1 {
+    font-size: 300%;
+  }
+
+  /* Nav style */
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+
+  nav a {
+    color: #b9C6ae;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  /*Hero and Background image style*/
+
+  .hero {
+    height: 300px;
+    background-image: url("../assets/images/Seattle.jpeg");
+    border-bottom-left-radius: 30px 30px;
+    border-bottom-right-radius: 30px 30px;
+    background-size: cover;
+    background-position: 100% 13%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    border-top: 10px solid rgb(198, 115, 47);
+  }
+
+  /* Hero and Background Message style */
+
+  .hero-message {
+    font-size: 40px;
+    background-color: rgb(95, 119, 120);
+    display: inline-block;
+    border: 3px solid rgba(16, 123, 223, 0.35);
+    position: relative;
+    padding: 1rem;
+    border-radius: 30px;
+    color: rgb(233, 243, 241);
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+
+  /* Main body style includes titles and contents */
+
+  main {
+    display: flex;
+    flex: 1 1 0;
+    margin: 2% auto;
+  }
+
+  .column {
+    flex: 1 1 0;
+    padding-right: 5%;
+  }
+
+  .title-2 {
+    border-top: 10px solid rgb(47, 143, 198);
+  }
+
+  .column p {
+    margin: 2% 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+  }
+
+  h2 {
+    margin: 2% 0;
+    font-size: 250%;
+  }
+
+  .work {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 5% 50px auto;
+  }
+
+  .project-title h3 {
+    border-radius: 50px 50px 0px 0px;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .images {
+    width: 30%;
+  }
+
+  /* Footer style */
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: auto;
+    padding: 3%;
+    background-color: #13395c;
+    color: #fff;
+  }
+
+  .footer ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+
+  .footer a {
+    color: #b9C6ae;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  /* Interactive Features */
+
+  @media screen and (max-width: 768px) {
+    body, header, main {
+      flex-direction: column;
+    }
+    section {
+      padding-right: 0;
+    }
+  }
