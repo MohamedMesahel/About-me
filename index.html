@@ -25,7 +25,7 @@
     <nav class="nav-response">
       <ul>
         <a href="#about-me" alt="About me">About Me</a>
-        <a href="#projects" alt="projects">Projects</a>
+        <a href="#work" alt="work">Projects</a>
         <a href="#contact-me" alt="contact me">Contact Me</a>
         <a href="https://drive.google.com/file/d/12_hqHTFt_PUzIh4GH4xL-2jvjOntGjzR/view?usp=sharing">Resume</a>
       </ul>
@@ -39,11 +39,12 @@
   </section>
 
   <!-- Main content-->
-  <main>
+  <main id="page-container">
     <div class="column">
-      <section id="about-me" class="title-2">
-        <h2>About-Me</h2>
-        <p>Helping customer reach their needs is my passion. I am a Project Manager and training supervisor committed to
+      <section id="about-me"class="title-2">
+        <h2 class="work-body"> About-Me</h2>
+        <p style="text-align:center;"> Helping customer reach their needs is my passion. I am a Project Manager and
+          training supervisor committed to
           deliver successful business solution through timely, measurable, and role-driven training programs in fast
           paced environment.
           I have a keen focus on defining, tracking, coordinating, and implementing customer success objectives. I
@@ -51,34 +52,46 @@
           training process in a clear way. Through my efficient training and project coordination skills
         </p>
       </section>
-      <!--Work content-->
+      <!--Work & Projects Content-->
       <section id="work" class="title-2">
-        <h2>Work</h2>
-        <div id="projects" class="Projects" alt="project 1">
-          <a href="http://https://github.com/MohamedMesahel/horiseon-website" alt>
-            <img src="./assets/images/Horiseonwebsite.png" alt="project 1" class=images>
-            <div class="projects-title">
-              <h3>Project-1</h3>
-            </div>
-          </a>
+        <div class="work-body">
+          <h2>Projects</h2>
         </div>
-        <!--Projects content-->
-        <div id="projects" class="Projects" alt="project 1">
-          <a href="https://mohamedmesahel.github.io/Calendar/index.html" alt>
-            <img src="./assets/images/Horiseonwebsite.png" alt="project 1" class=images>
+        <div class="portfolio">
+          <div class="portfolio-item" alt="project 1">
+            <img src="./assets/images/Horiseonwebsite.png" alt="project 1" class=portfolio-img>
             <div class="projects-title">
-              <h3>Project-2</h3>
+              <a href="https://mohamedmesahel.github.io/horiseon-website/">
+                <button style="margin:5px;" id="btn">Demo</button>
+              </a>
+              <a href="https://github.com/MohamedMesahel/horiseon-website">
+                <button style="margin:5px;" id="btn">Source Code</button>
+              </a>
             </div>
-          </a>
-        </div>
-        <div id="projects" class="Projects" alt="project 1">
-          <a href="http://https://github.com/MohamedMesahel/horiseon-website" alt>
-            <img src="./assets/images/Welcome.png" alt="project 1" class=images>
+          </div>
+          <div class="portfolio-item" alt="project 2">
+            <img src="./assets/images/Welcome.png" alt="project 2" class=portfolio-img>
             <div class="projects-title">
-              <h3>Project-3</h3>
+              <a href="https://mohamedmesahel.github.io/Calendar/index.html">
+                <button style="margin:5px;" id="btn">Demo</button>
+              </a>
+              <a href="https://github.com/MohamedMesahel/Calendar">
+                <button style="margin:5px;" id="btn">Source Code</button>
+              </a>
             </div>
-          </a>
-        </div>
+          </div>
+          <div class="portfolio-item" alt="project 3">
+            <img src="./assets/images/scheduler.png" alt="project 3" class=portfolio-img>
+            <div class="projects-title">
+              <a href="https://mohamedmesahel.github.io/Work-Day-Scheduler/">
+                <button style="margin:5px;" id="btn">Demo</button>
+              </a>
+              <a href="https://github.com/MohamedMesahel/Work-Day-Scheduler">
+                <button style="margin:5px;" id="btn">Source Code</button>
+              </a>
+            </div>
+          </div>
+
       </section>
     </div>
   </main>

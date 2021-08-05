@@ -71,43 +71,72 @@
 
   main {
     display: flex;
-    flex: 1 1 0;
     margin: 2% auto;
   }
 
-  .column {
-    flex: 1 1 0;
-    padding-right: 5%;
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+    background-color: #1F2232;
+    background-image: url("./images/background.jpeg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .title-2 {
-    border-top: 10px solid rgb(47, 143, 198);
+    border-top: 10px solid rgb(37, 100, 137);
   }
 
-  .column p {
-    margin: 2% 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 100%;
+  .work-body {
+    text-align: center;
+  }
+
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+    text-align: center;
+    margin-right: 1rem;
+  }
+
+  .portfolio-item {
+    border: 3px solid rgba(12, 96, 192, 0.35);
+    padding: 0.5rem;
+    border-radius: 50px;
+    color: rgb(70, 95, 124);
+    background-color: rgba(255, 255, 255, 0.65);
+    font-weight: bolder;
+    margin-right: 2em;
+  }
+
+  .portfolio-img {
+    width: 50%;
+  }
+
+  #btn {
+    background-color: rgb(62, 221, 221);
+    color: black;
+    border: 5px solid #0fcfc9;
+    border-radius: 50px;
+    margin-right: 1rem;
+    /* Green */
+  }
+
+  #btn:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .portfolio a {
+    color: #b9C6ae;
+    font-weight: bold;
+    text-decoration: none;
   }
 
   h2 {
     margin: 2% 0;
     font-size: 250%;
-  }
-  .work {
-    display: flex;
-    justify-content: flex-end;
-    margin: 20px 5% 50px auto;
-  }
-
-  .project-title h3 {
-    border-radius: 50px 50px 0px 0px;
-    padding: 20px;
-    text-align: left;
-  }
-
-  .images {
-    width: 30%;
   }
 
   /* Footer style */
