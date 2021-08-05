@@ -6,8 +6,11 @@ I wanted to start working on my portfolio and use my recent skills with HTML and
 
 ## Reasons for this Project
 To provide a start up interactive portfolio page with some ifno regarding the developer
-
-### Link
+### Link to Live Demo
 [My-First-Portfolio](https://mohamedmesahel.github.io/About-me/)
 
-![](./assets/images/M_portfolio.png)
+![](./assets/images/portfolio.png)
+
+**Coded with:**
+   *HTML
+   *CSS
