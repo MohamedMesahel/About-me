@@ -17,7 +17,7 @@ To provide a start up interactive portfolio page with some ifno regarding the de
 ### Link to Live Demo
 [My-First-Portfolio](https://mohamedmesahel.github.io/About-me/)
 
-![](./assets/images/portfolio.png)
+![](./assets/images/Portfolio.png)
 
 **Coded with:**
    *HTML
