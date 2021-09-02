@@ -5,7 +5,7 @@ My first Portfolio
 I wanted to start working on my portfolio and use my recent skills with HTML and CSS
 
 ### Screen Shots
-![](./assets/images/Portfolio.png)
+![](assets/img/Portfolio.png)
 
 ## User Story
 
