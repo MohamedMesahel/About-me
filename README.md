@@ -4,6 +4,9 @@ My first Portfolio
 ## Motivation for this Porject
 I wanted to start working on my portfolio and use my recent skills with HTML and CSS
 
+### Screen Shots
+![](./assets/images/Portfolio.png)
+
 ## User Story
 
 ```
@@ -17,9 +20,6 @@ To provide a start up interactive portfolio page with some ifno regarding the de
 ### Link to Live Demo
 
 [My-First-Portfolio](https://mohamedmesahel.github.io/About-me/)
-
-### Screen Shots
-![Screenshot](./assets/images/Portfolio.png)
 
 **Coded with:**
    *HTML
