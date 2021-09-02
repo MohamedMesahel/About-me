@@ -4,46 +4,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mohamed Mesahel Portfolio | Web-Developer</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+  </style>
   <link rel="stylesheet" type="text/css" href="./assets/style.css">
-  <title>My Portfolio</title>
+  <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-search-pseudo-elements>
+  </script>
 </head>
 
 <body>
-  <!--Header and Background-->
+  <!-- Navigation & Main Header -->
   <header>
-    <div class="container">Hello! I am
-      <h1 class="title is-1">
-        Mohamed Mesahel </h1>
-      <h2 class="subtitle is-3">
-        Full Stack Web Developer
-      </h2>
-    </div>
-
-    <!--Nav links-->
-    <nav class="nav-response">
-      <ul>
-        <a href="#about-me" alt="About me">About Me</a>
-        <a href="#work" alt="work">Projects</a>
-        <a href="#contact-me" alt="contact me">Contact Me</a>
-        <a href="https://drive.google.com/file/d/12_hqHTFt_PUzIh4GH4xL-2jvjOntGjzR/view?usp=sharing">Resume</a>
-      </ul>
+    <h1>Mohamed Mesahel</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">My Work</a>
+      <a href="#contact-me" alt="contact me">Contact Me</a>
+      <a href="https://drive.google.com/file/d/12_hqHTFt_PUzIh4GH4xL-2jvjOntGjzR/view?usp=sharing">Resume</a>
     </nav>
   </header>
-  <!--Hero Background image and message-->
+
+  <!-- Hero -->
   <section class="hero">
     <div class="hero-message">
       <span class=message>Have a Great Day!!</span>
     </div>
   </section>
 
-  <!-- Main content-->
-  <main id="page-container">
-    <div class="column">
-      <section id="about-me"class="title-2">
-        <h2 class="work-body"> About-Me</h2>
-        <p style="text-align:center;"> Helping customer reach their needs is my passion. I am a Project Manager and
+  <main class="page-wrapper">
+    <!-- About Me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
+        <p> Helping customer reach their needs is my passion. I am a Project Manager and
           training supervisor committed to
           deliver successful business solution through timely, measurable, and role-driven training programs in fast
           paced environment.
@@ -51,59 +46,105 @@
           create easy to follow step-by-step training manuals and instructions to help participants navigate through the
           training process in a clear way. Through my efficient training and project coordination skills
         </p>
-      </section>
-      <!--Work & Projects Content-->
-      <section id="work" class="title-2">
-        <div class="work-body">
-          <h2>Projects</h2>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="page-section" id="work">
+      <h2>My Work</h2>
+      <div class="grid-container">
+        <!-- Feature Project #1 -->
+        <div class="grid-item calendar-project">
+          <a href="https://mohamedmesahel.github.io/Calendar/index.html" class="calendar-project">
+            <div>
+              <h3>Squirlles - Calendar</h3>
+              <span>HTML, CSS, JavaScript, and APIs</span>
+            </div>
+          </a>
+          <a href="https://github.com/MohamedMesahel/Calendar">
+            <button style="margin:5px;" id="btn">Source Code</button>
+          </a>
         </div>
-        <div class="portfolio">
-          <div class="portfolio-item" alt="project 1">
-            <img src="./assets/images/Horiseonwebsite.png" alt="project 1" class=portfolio-img>
-            <div class="projects-title">
-              <a href="https://mohamedmesahel.github.io/horiseon-website/">
-                <button style="margin:5px;" id="btn">Demo</button>
-              </a>
-              <a href="https://github.com/MohamedMesahel/horiseon-website">
-                <button style="margin:5px;" id="btn">Source Code</button>
-              </a>
+        <!-- Project #2 -->
+        <div class="grid-item horiseon">
+          <a href="https://mohamedmesahel.github.io/horiseon-website/" class="horiseon">
+            <div>
+              <h3>Horiseon</h3>
+              <span>HTML, CSS</span>
             </div>
-          </div>
-          <div class="portfolio-item" alt="project 2">
-            <img src="./assets/images/Welcome.png" alt="project 2" class=portfolio-img>
-            <div class="projects-title">
-              <a href="https://mohamedmesahel.github.io/Calendar/index.html">
-                <button style="margin:5px;" id="btn">Demo</button>
-              </a>
-              <a href="https://github.com/MohamedMesahel/Calendar">
-                <button style="margin:5px;" id="btn">Source Code</button>
-              </a>
+          </a>
+          <a href="https://github.com/MohamedMesahel/horiseon-website">
+            <button style="margin:5px;" id="btn">Source Code</button>
+          </a>
+        </div>
+        <!-- Project #3 -->
+        <div class="grid-item work-day-scheduler">
+          <a href="https://mohamedmesahel.github.io/Work-Day-Scheduler/" class="work-day-scheduler">
+            <div>
+              <h3>Work-Day-Scheduler</h3>
+              <span>HTML, CSS, and JavaScript</span>
+              <!-- Add the button below -->
             </div>
-          </div>
-          <div class="portfolio-item" alt="project 3">
-            <img src="./assets/images/scheduler.png" alt="project 3" class=portfolio-img>
-            <div class="projects-title">
-              <a href="https://mohamedmesahel.github.io/Work-Day-Scheduler/">
-                <button style="margin:5px;" id="btn">Demo</button>
-              </a>
-              <a href="https://github.com/MohamedMesahel/Work-Day-Scheduler">
-                <button style="margin:5px;" id="btn">Source Code</button>
-              </a>
+          </a>
+          <a href="https://github.com/MohamedMesahel/Work-Day-Scheduler">
+            <button style="margin:5px;" id="btn">Source Code</button>
+          </a>
+        </div>
+        <!-- Project #4 -->
+        <div class="grid-item readme-generator">
+          <a href="https://github.com/MohamedMesahel/Professional-README-Generator" class="readme-generator">
+            <div>
+              <h3>Professional-README-Generator</h3>
+              <span>JavaScript</span>
             </div>
-          </div>
+          </a>
+          <a href="https://github.com/MohamedMesahel/Professional-README-Generator">
+            <button style="margin:5px;" id="btn">Source Code</button>
+          </a>
+        </div>
 
-      </section>
-    </div>
+        <!-- Project #5 -->
+        <div class="grid-item tutorade">
+          <a href="https://github.com/Conso97/Tutorade" class="tutorade">
+            <div>
+              <h3>Tutorade</h3>
+              <span>Full Stack Application</span>
+            </div>
+          </a>
+          <a href="https://github.com/Conso97/Tutorade">
+            <button style="margin:5px;" id="btn">Source Code</button>
+
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section class="page-section contact" id="contact-me">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <!-- Github -->
+          <a href="https://github.com/MohamedMesahel" target="_blank">
+            <i class="fab fa-github"></i>
+            GitHub
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/mohamed-mesahel-pmp-570a0423/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+            Linkedin
+          </a>
+        </address>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <!-- E-Mail -->
+      <E-mail>mohamed.mesahel86@gmail.com</E-mail>
+    </footer>
   </main>
-  <!--Footer content-->
-  <footer id="contact-me" class="footer">
-    <h2>Contact-me</h2>
-    <ul>
-      <a href="https://www.linkedin.com/in/mohamed-mesahel-pmp-570a0423/">linkedin</a>
-      <E-mail>mohamed.mesahel@gmail.com</E-mail>
-    </ul>
-  </footer>
-
 </body>
 
 </html>
