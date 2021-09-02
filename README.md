@@ -15,8 +15,10 @@ SO THAT I can review samples of their work and assess whether they're a good can
 ## Reasons for this Project
 To provide a start up interactive portfolio page with some ifno regarding the developer
 ### Link to Live Demo
+
 [My-First-Portfolio](https://mohamedmesahel.github.io/About-me/)
 
+### Screen Shots
 ![Screenshot](./assets/images/Portfolio.png)
 
 **Coded with:**
