@@ -1,5 +1,5 @@
 # About-me
-My first Portfolio
+My first start up Portfolio using html and css only for design and styling.
 
 ## Motivation for this Porject
 I wanted to start working on my portfolio and use my recent skills with HTML and CSS
